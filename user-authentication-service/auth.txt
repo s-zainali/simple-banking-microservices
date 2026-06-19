@@ -1,0 +1,41 @@
+.
+├── auth.txt
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README.md
+├── src
+│   ├── main
+│   │   ├── docker
+│   │   │   ├── Dockerfile.jvm
+│   │   │   ├── Dockerfile.legacy-jar
+│   │   │   ├── Dockerfile.native
+│   │   │   └── Dockerfile.native-micro
+│   │   ├── java
+│   │   │   └── org
+│   │   │       └── acme
+│   │   │           ├── client
+│   │   │           │   └── CoreServiceClient.java
+│   │   │           └── resources
+│   │   │               └── AuthResource.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
+│       └── java
+│           └── org
+│               └── acme
+│                   ├── GreetingResourceIT.java
+│                   └── GreetingResourceTest.java
+└── target
+    ├── classes
+    │   └── application.properties
+    ├── generated-sources
+    │   └── annotations
+    └── maven-status
+        └── maven-compiler-plugin
+            └── compile
+                └── null
+                    ├── createdFiles.lst
+                    └── inputFiles.lst
+
+22 directories, 17 files
